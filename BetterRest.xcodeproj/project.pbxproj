@@ -14,6 +14,10 @@
 		BF16BB522BCC7B5600F8E296 /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16BB512BCC7B5600F8E296 /* BetterRestTests.swift */; };
 		BF16BB5C2BCC7B5600F8E296 /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16BB5B2BCC7B5600F8E296 /* BetterRestUITests.swift */; };
 		BF16BB5E2BCC7B5600F8E296 /* BetterRestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF16BB5D2BCC7B5600F8E296 /* BetterRestUITestsLaunchTests.swift */; };
+		BF1BF72F2BF10C8000EBD99B /* CoffeeIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BF72E2BF10C8000EBD99B /* CoffeeIntakeView.swift */; };
+		BF1BF7312BF10CC500EBD99B /* SleepAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BF7302BF10CC500EBD99B /* SleepAmountView.swift */; };
+		BF1BF7332BF10D4F00EBD99B /* WakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BF7322BF10D4F00EBD99B /* WakeUpView.swift */; };
+		BF1BF7352BF10D7B00EBD99B /* BedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BF7342BF10D7B00EBD99B /* BedTimeView.swift */; };
 		BF48D3E82BCD6AE900C77422 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF48D3E72BCD6AE900C77422 /* SleepCalculator.mlmodel */; };
 		BFB436E82BDB629800C506A5 /* BetterRestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB436E72BDB629800C506A5 /* BetterRestViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +50,10 @@
 		BF16BB572BCC7B5600F8E296 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF16BB5B2BCC7B5600F8E296 /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		BF16BB5D2BCC7B5600F8E296 /* BetterRestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF1BF72E2BF10C8000EBD99B /* CoffeeIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeIntakeView.swift; sourceTree = "<group>"; };
+		BF1BF7302BF10CC500EBD99B /* SleepAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAmountView.swift; sourceTree = "<group>"; };
+		BF1BF7322BF10D4F00EBD99B /* WakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpView.swift; sourceTree = "<group>"; };
+		BF1BF7342BF10D7B00EBD99B /* BedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedTimeView.swift; sourceTree = "<group>"; };
 		BF48D3E72BCD6AE900C77422 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		BFB436E72BDB629800C506A5 /* BetterRestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,9 +109,13 @@
 			children = (
 				BF16BB402BCC7B5500F8E296 /* BetterRestApp.swift */,
 				BF16BB422BCC7B5500F8E296 /* BetterRestView.swift */,
+				BF1BF7342BF10D7B00EBD99B /* BedTimeView.swift */,
+				BF1BF7322BF10D4F00EBD99B /* WakeUpView.swift */,
+				BF1BF7302BF10CC500EBD99B /* SleepAmountView.swift */,
+				BF1BF72E2BF10C8000EBD99B /* CoffeeIntakeView.swift */,
+				BFB436E72BDB629800C506A5 /* BetterRestViewModel.swift */,
 				BF16BB442BCC7B5600F8E296 /* Assets.xcassets */,
 				BF16BB462BCC7B5600F8E296 /* Preview Content */,
-				BFB436E72BDB629800C506A5 /* BetterRestViewModel.swift */,
 			);
 			path = BetterRest;
 			sourceTree = "<group>";
@@ -264,9 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB436E82BDB629800C506A5 /* BetterRestViewModel.swift in Sources */,
+				BF1BF7352BF10D7B00EBD99B /* BedTimeView.swift in Sources */,
 				BF16BB432BCC7B5500F8E296 /* BetterRestView.swift in Sources */,
+				BF1BF7332BF10D4F00EBD99B /* WakeUpView.swift in Sources */,
 				BF48D3E82BCD6AE900C77422 /* SleepCalculator.mlmodel in Sources */,
 				BF16BB412BCC7B5500F8E296 /* BetterRestApp.swift in Sources */,
+				BF1BF7312BF10CC500EBD99B /* SleepAmountView.swift in Sources */,
+				BF1BF72F2BF10C8000EBD99B /* CoffeeIntakeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

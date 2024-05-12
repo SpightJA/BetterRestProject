@@ -24,6 +24,7 @@ struct CoffeeIntakeView: View {
                     .foregroundStyle(.secondaryBlue)
             }
         }
+        .listRowBackground(Color.clear)
     }
 }
 

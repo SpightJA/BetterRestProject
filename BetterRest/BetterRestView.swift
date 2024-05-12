@@ -20,9 +20,11 @@ struct BetterRestView: View {
                         SleepAmountView(sleepAmount: $viewModel.SleepHours)
                         CoffeeIntakeView(coffeeAmount: $viewModel.coffeeAmount)
                     }
+                    
                     .scrollContentBackground(.hidden)
                     .scrollBounceBehavior(.basedOnSize)
                     .frame(maxHeight: 420 )
+                    
                     Spacer()
                     BedTimeView(idealSleep: $viewModel.idealSleep)
                     

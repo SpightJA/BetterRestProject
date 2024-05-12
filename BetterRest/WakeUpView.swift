@@ -24,6 +24,8 @@ struct WakeUpView: View {
                     .foregroundStyle(.secondaryBlue)
             }
         }
+        .listRowBackground(Color.clear)
+        
     }
 }
 

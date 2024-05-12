@@ -21,6 +21,7 @@ struct SleepAmountView: View {
                     
                 }
         }
+        .listRowBackground(Color.clear)
         
     }
 }
